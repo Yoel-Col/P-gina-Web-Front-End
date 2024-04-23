@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration:  none;
+    font-size: inherit;
+    display: block;
+    
+}
+
+img,video,iframe, picture, figure{
+    max-width: 100%;
+    display: block;
+    height: inherit;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    display: block;
+}
+p a{
+    display: inline;
+}
+
+form, input, select, textarea, button, label{
+    font-family: inherit;
+    font-size: inherit;
+    display: block;
+    
+
+}
+
+figure { 
+    margin: 0;
+    padding: 0;
+}
+
+time{
+    display: block;
+}

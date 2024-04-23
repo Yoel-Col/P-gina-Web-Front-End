@@ -1,0 +1,11 @@
+/*SCROLL CHROME CONTENIDO PRINCIPAL*/
+
+:root{
+    --color-scrollbar: var(--color-subtitulo);
+    --color-backgroud:; 
+}
+
+body::-webkit-scrollbar{
+    background: transparent;
+    width: 0px;
+}
