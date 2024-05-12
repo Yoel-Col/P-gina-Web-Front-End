@@ -13,66 +13,29 @@
     <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css">
 
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/stylesResponsive.css">
 
     <title>Agencia de Desarrollo Musical</title>
 </head>
 <body>
     <div class="layao">
         <!--Menu-->
-        <section class="layao__menu">
-            <div class="menu__navbar">
-                <div class="navbar__logo">
-                    <a href="#" class="navbar__link-logo">
-                        <img class="navar__logo-light" src="./assets/img/p4.png" alt="Logo">
-                    </a>
-                    <span class="navar__logo-name">
-                        S E L N E G N E
-                    </span>
-                    
-                </div>
-                <nav class="navbar__nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link"> INICIO
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link"> SERVICIOS
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--active"> PORTAFOLIO
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                            
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link"> BLOG
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                            
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link"> EQUIPO
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link"> CONTACTO
-                                <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="navbar__user">
-                    <a href="#" class="navbar__link">
-                        <i class="navbar__link-icon fa-solid fa-user"></i>
-                    </a>                       
-                </div>
+        <header class="header menu__navbar">
+            <div class="encabezadoMobile">
+                <a href="#" class="navbar__link-logo">
+                    <img class="navar__logo-light" src="./../assets/img/p4.png" alt="Logo">
+                </a>
+              <h1 class="navar__logo-name">S E L N E G N E</h1>
+              <i class="fa-solid fa-bars barras"></i>
             </div>
-        </section>
+            <nav class="navigation oculto">
+              <ul class="list">
+                <li><a class="nav__link" href="./../index.html">Inicio</a></li>
+                <li><a class="nav__link" href="./pages/productos.html">Productos</a></li>
+                <li><a class="nav__link" href="./pages/contacto.html">Contacto</a></li>
+              </ul>
+            </nav>
+            </header>
         <!-- CONTENIDO PRINCIPAL-->
         <main class="layao__content">
             <!--Carrusel-->
@@ -306,7 +269,7 @@
                         </figure>
                     </div>
                 </div>
-                <nav class="generales__navbar">
+                <div class="generales__navbar">
                     <ul class="generales__list">
                         <li class="generales__item">
                             <h2 class="generales__subtitle">
@@ -344,7 +307,7 @@
                             </h2>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </section>
             <!--ICONS-->
             <section class="content__icons">
@@ -416,29 +379,21 @@
 
         
 
-        <!--Futer-->
+        <!--Footer-->
         <footer class="layao__footer">
             <div class="footer__top">
-                <div class="top__item">
-                    <a href="#" class="top__link">
+                <a href="#" class="top__link">
                         <i class="top__icon fa-brands fa-youtube"></i>
-                    </a>
-                </div>
-                <div class="top__item">
-                    <a href="#" class="top__link">
-                        <i class="top__icon fa-brands fa-whatsapp"></i>
-                    </a>
-                </div>
-                <div class="top__item">
-                    <a href="#" class="top__link">
-                        <i class="top__icon fa-brands fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="top__item">
-                    <a href="#" class="top__link">
-                        <i class="top__icon fa-brands fa-instagram"></i>
-                    </a>
-                </div>
+                </a>
+                <a href="#" class="top__link">
+                    <i class="top__icon fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="top__link">
+                    <i class="top__icon fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="top__link">
+                    <i class="top__icon fa-brands fa-instagram"></i>
+                </a>
             </div>
             <div class="footer__content">
                 <div class="footer__left">
@@ -457,28 +412,9 @@
 
                 <div class="footer__right">
                     <div class="right__logo">
-                        <img src="./assets/img/p4.png" alt="Logo de la página" class="right__logo-img">
-                    </div>
-                    <div class="right__nav">
-                        <h3 class="right__title"> NAVEGACIÓN</h3>
-                        <ul class="right__list">
-                            <li class="right__option">
-                                <a href="#" class="right__link"> Home
-                                    <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="right__option">
-                                <a href="#" class="right__link"> Productos
-                                    <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="right__option">
-                                <a href="#" class="right__link"> Contacto
-                                    <i class="nav__link-icon fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            
-                        </ul>
+                        <a href="#" class="navbar__link-logo">
+                            <img class="navar__logo-light" src="./../assets/img/p4.png" alt="Logo">
+                        </a>
                     </div>
                     <div class="right__contact">
                         <h3 class="right__title"> CONTACTANOS</h3>
@@ -507,13 +443,16 @@
                                 </a>
                             </li>
                     </div>
+                    
                 </div>
+                
             </div>
+            
             <div class="footer__bottom">
                 <div class="bottom__copyright">
-                    <span class="copyright__text">
+                    <small class="copyright__text">
                         &copy;  2024. Todos los derechos reservados a <a href="#" class="bottom__link"> [nombre]</a>.
-                    </span>
+                    </small>
                 </div>
                 <div class="bottom__links">
                     <ul class="bottom__list">
@@ -523,11 +462,13 @@
                         <li class="bottom__item bottom__item--separador">
                             <a href="#" class="bottom__link"> Terminos de uso</a>
                         </li>    
+                        <li class="bottom__item bottom__item--separador">
+                            <a href="#" class="bottom__link"> Ir arriba</a>
+                        </li> 
                     </ul>
                 </div>
             </div>
         </footer>
-
-    </div>
+        <script src="./js/Index.js"></script>
 </body>
 </html>
