@@ -2,7 +2,8 @@
 function getUrlSpecific(done, id) {
   const ids = id !== null ? "/" + id : "";
   const results = fetch(
-    `https://my-json-server.typicode.com/SEBASTIANULIBARRI/DiarioDigital/products${ids}`
+    `https://my-json-server.typicode.com/Yoel-Col/prototipo-pagina-web.github.io/products${ids}`
+    //`https://my-json-server.typicode.com/SEBASTIANULIBARRI/DiarioDigital/products${ids}`
   );
   results
     .then((response) => response.json())

@@ -219,7 +219,6 @@ li {
 /*HOVERS GENERALES*/
 
 .top__icon:hover {
-  scale: 1.2;
   color: var(--color-extra);
   opacity: 1;
 }
@@ -232,20 +231,18 @@ li {
 }
 
 a:hover {
-  color: var(--color-extra);
+  /* color: var(--color-extra); */
   opacity: 1;
-  transform: scale(1.05);
   transform-origin: center;
 }
 
-.nav__link:hover {
+/* .nav__link:hover {
   transform-origin: center;
-  transform: scale(1.2);
   padding: 0.5rem 1rem;
   background-color: var(--color-cambio);
   color: var(--color-subtitulo);
-  height: 5.5rem;
-}
+  height: 5.5rem; */
+/* } */
 
 .layao__content {
   flex: 1;
@@ -685,12 +682,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 60rem;
   overflow: hidden;
 }
 
 .generales__productos {
-  padding-top: 25rem;
+  padding-top: 2.5rem;
   width: 100%;
   height: 100%;
   display: flex;
@@ -702,7 +698,7 @@ a:hover {
 .productos__item {
   padding: 0 2rem;
   width: 30rem;
-  height: 30rem;
+  margin-bottom: 1rem;
   align-items: center;
   text-align: center;
 }
