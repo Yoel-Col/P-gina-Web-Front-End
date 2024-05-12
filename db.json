@@ -6,7 +6,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/AcondicionadorTresemme.png"
+      "url_img": "./../assets/img/img1.jpeg"
     },
     {
       "id":2,
@@ -14,14 +14,14 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/DelineadorLiquido.png"
+      "url_img": "./../assets/img/img2.jpeg"
     },    {
       "id":3,
       "title": "Delineador Revlon",
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/DelineadorRevlon.png"
+      "url_img": "./../assets/img/img3.jpeg"
     },
     {
       "id":4,
@@ -29,7 +29,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/SerumElvive.png"
+      "url_img": "./../assets/img/img4.jpeg"
     },
         {
       "id":5,
@@ -37,7 +37,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooArgan.png"
+      "url_img": "./../assets/img/img5.jpeg"
     },
     {
       "id":6,
@@ -45,14 +45,14 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooAveno.png"
+      "url_img": "./../assets/img/img6.jpeg"
     },    {
       "id":7,
       "title": "Shampoo Controlex",
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooControlex.png"
+      "url_img": "./../assets/img/img7.jpeg"
     },
     {
       "id":8,
@@ -60,7 +60,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooDove.png"
+      "url_img": "./../assets/img/img8.jpeg"
     },
         {
       "id":9,
@@ -68,7 +68,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooElvive.png"
+      "url_img": "./../assets/img/img9.jpeg"
     },
     {
       "id":10,
@@ -76,7 +76,7 @@
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
       "precio" : 1500,
       "Stock" : 15,
-      "url_img": "./../assets/img/ShampooGarner.png"
+      "url_img": "./../assets/img/img10.jpeg"
     }
   ],
   "profile": {
