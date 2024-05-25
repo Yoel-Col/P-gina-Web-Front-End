@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./../assets/css/stylesResponsive.css" />
     <title>SELNEGNE</title>
-    <link rel="icon" href="./../assets/img/favicon.ico">
+    <link rel="icon" href="./../assets/img/favicon.ico" />
 
     <link
       rel="stylesheet"
@@ -27,124 +27,120 @@
         <i class="fa-solid fa-bars barras"></i>
       </div>
       <nav class="navigation oculto">
-
-            <ul class="list">
-                <li><a class="nav__link" href="./../index.html">Inicio</a></li>
-                <li><a class="nav__link" href="./productos.html">Productos</a></li>
-                <li><a class="nav__link" href="./contacto.html">Contacto</a></li>
-              </ul>
+        <ul class="list">
+          <li><a class="nav__link" href="./../index.html">Inicio</a></li>
+          <li><a class="nav__link" href="./productos.html">Productos</a></li>
+          <li><a class="nav__link" href="./contacto.html">Contacto</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-        <div class="container">
-          <div class="tituloFormulario"><h2>Contacto</h2></div>
-          <div class="contenidoFormulario">
-            <div class="divImagenFormulario">
-              <img
-                src="assets/img/logo.png"
-                alt="Icono torta"
+      <div class="container">
+        <div class="tituloFormulario"><h2>Contacto</h2></div>
+        <div class="contenidoFormulario">
+          <div class="divImagenFormulario">
+            <img src="assets/img/logo.png" alt="Icono torta" />
+          </div>
+          <div>
+            <form class="divFormulario">
+              <label for="nombre">Nombre:</label>
+              <input
+                class="inputText"
+                type="text"
+                id="nombre"
+                placeholder="Ingrese su nombre"
               />
-            </div>
-            <div>
-              <form class="divFormulario">
-                <label for="nombre">Nombre:</label>
+              <br />
+              <label for="apellido">Apellido:</label>
+              <input
+                class="inputText"
+                type="text"
+                id="apellido"
+                placeholder="Ingrese su apellido"
+              />
+              <br />
+              <label for="dni">Documento:</label>
+              <input
+                class="inputText"
+                type="text"
+                id="dni"
+                placeholder="Ingrese su DNI"
+              />
+              <br />
+              <label for="mail">Mail:</label>
+              <input
+                class="inputText"
+                type="email"
+                id="mail"
+                placeholder="Ingrese su email"
+              />
+              <br />
+              <label for="motivo-de-consulta"
+                >Seleccione el motivo de su consulta</label
+              >
+              <br />
+
+              <select class="inputText" name="consulta" id="motivo-de-consulta">
+                <option value="opcion1">Encargo a 15 días o más</option>
+                <option value="opcion2">Modificación del encargo</option>
+                <option value="opcion3">Reclamo por error</option>
+                <option value="opcion4">Aviso de cancelación</option>
+              </select>
+              <br />
+              <label for="text-area"
+                >Si lo desea, puede dejarnos un detalle de su consulta.</label
+              >
+              <br />
+              <textarea
+                class="campo-contacto"
+                name="motivo-contacto"
+                id="text-area"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <br />
+              <label
+                >¿Desea que le enviemos las ofertas disponibles en
+                Coditos?</label
+              >
+              <div class="radioFormulario">
                 <input
-                  class="inputText"
-                  type="text"
-                  id="nombre"
-                  placeholder="Ingrese su nombre"
+                  type="radio"
+                  id="opcion1"
+                  name="preferencias"
+                  value="opcion1"
                 />
-                <br />
-                <label for="apellido">Apellido:</label>
+                <label for="opcion1">Si, quiero</label><br />
                 <input
-                  class="inputText"
-                  type="text"
-                  id="apellido"
-                  placeholder="Ingrese su apellido"
+                  type="radio"
+                  id="opcion2"
+                  name="preferencias"
+                  value="opcion2"
                 />
-                <br />
-                <label for="dni">Documento:</label>
-                <input
-                  class="inputText"
-                  type="text"
-                  id="dni"
-                  placeholder="Ingrese su DNI"
-                />
-                <br />
-                <label for="mail">Mail:</label>
-                <input
-                  class="inputText"
-                  type="email"
-                  id="mail"
-                  placeholder="Ingrese su email"
-                />
-                <br />
-                <label for="motivo-de-consulta" id="motivo-de-consulta"
-                  >Seleccione el motivo de su consulta</label
-                >
-                <br />
-  
-                <select class="inputText" name="consulta">
-                  <option value="opcion1">Encargo a 15 días o más</option>
-                  <option value="opcion2">Modificación del encargo</option>
-                  <option value="opcion3">Reclamo por error</option>
-                  <option value="opcion4">Aviso de cancelación</option>
-                </select>
-                <br />
-                <label for="motivo-consulta"
-                  >Si lo desea, puede dejarnos un detalle de su consulta.</label
-                >
-                <br />
-                <textarea
-                  class="campo-contacto"
-                  name="motivo-contacto"
-                  id=""
-                  cols="30"
-                  rows="10"
-                ></textarea>
-                <br />
-                <label for="informacionParaUsuarios"
-                  >¿Desea que le enviemos las ofertas disponibles en
-                  Coditos?</label
-                >
-                <div class="radioFormulario">
-                  <input
-                    type="radio"
-                    id="opcion1"
-                    name="preferencias"
-                    value="opcion1"
-                  />
-                  <label for="opcion1">Si, quiero</label><br />
-                  <input
-                    type="radio"
-                    id="opcion2"
-                    name="preferencias"
-                    value="opcion2"
-                  />
-                  <label for="opcion2">No, gracias</label>
-                </div>
-  
-                <input class="inputText botonEnviar" type="submit" />
-              </form>
-            </div>
+                <label for="opcion2">No, gracias</label>
+              </div>
+
+              <input class="inputText botonEnviar" type="submit" />
+            </form>
           </div>
         </div>
-      </main>
+      </div>
+    </main>
 
     <!--Footer-->
     <footer class="layao__footer">
       <div class="footer__top">
-        <a href="#" class="top__link">
+        <a href="https://www.youtube.com/" target="_blank" class="top__link">
           <i class="top__icon fa-brands fa-youtube"></i>
         </a>
-        <a href="#" class="top__link">
+        <a href="https://www.whatsapp.com/" target="_blank" class="top__link">
           <i class="top__icon fa-brands fa-whatsapp"></i>
         </a>
-        <a href="#" class="top__link">
+        <a href="https://www.twitter.com/" target="_blank" class="top__link">
           <i class="top__icon fa-brands fa-twitter"></i>
         </a>
-        <a href="#" class="top__link">
+        <a href="https://www.instagram.com/" target="_blank" class="top__link">
           <i class="top__icon fa-brands fa-instagram"></i>
         </a>
       </div>
@@ -186,7 +182,7 @@
             <h3 class="right__title">CONTACTANOS</h3>
             <ul class="right__list">
               <li class="right__option">
-                <p class="" right__></p>
+                <p class="right__"></p>
               </li>
               <li class="right__option">
                 <a href="#" class="righ__link">
