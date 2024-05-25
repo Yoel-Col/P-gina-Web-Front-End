@@ -40,10 +40,10 @@
         <div class="tituloFormulario"><h2>Contacto</h2></div>
         <div class="contenidoFormulario">
           <div class="divImagenFormulario">
-            <img src="assets/img/logo.png" alt="Icono torta" />
+            <!-- Imagen de contacto si es necesario -->
           </div>
           <div>
-            <form class="divFormulario">
+            <form id="form" class="divFormulario">
               <label for="nombre">Nombre:</label>
               <input
                 class="inputText"
@@ -80,12 +80,11 @@
                 >Seleccione el motivo de su consulta</label
               >
               <br />
-
               <select class="inputText" name="consulta" id="motivo-de-consulta">
-                <option value="opcion1">Encargo a 15 días o más</option>
-                <option value="opcion2">Modificación del encargo</option>
-                <option value="opcion3">Reclamo por error</option>
-                <option value="opcion4">Aviso de cancelación</option>
+                
+                <option value="opcion1">Modificación del encargo</option>
+                <option value="opcion2">Reclamo por error</option>
+                <option value="opcion3">Aviso de cancelación</option>
               </select>
               <br />
               <label for="text-area"
@@ -123,6 +122,7 @@
 
               <input class="inputText botonEnviar" type="submit" />
             </form>
+            <div id="warnings"></div>
           </div>
         </div>
       </div>
@@ -235,5 +235,6 @@
       </div>
     </footer>
     <script src="./../js/Index.js"></script>
+    <script src="./../js/validacion.js"></script>
   </body>
 </html>
