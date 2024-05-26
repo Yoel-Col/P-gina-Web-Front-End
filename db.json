@@ -4,7 +4,7 @@
       "id":1,
       "title": "MYSTIQ (Edicion Limitada) - ✦ D-TOX",
       "descripcion": "Para una limpieza profunda.Contiene carbón activado, que elimina las toxinas del cuero cabelludo.",
-      "precio" : $12.000,
+      "precio" : 12.000,
       "Stock" : 35,
       "url_img": "./../assets/img/img1.jpeg"
     },
@@ -12,14 +12,14 @@
       "id":2,
       "title": "MYSTIQ (Edicion Limitada) - ✦NATURAL",
       "descripcion": "Para todo tipo de cabellos.Shampoo natural con glicerina vegetal y aceites que nutren, reparan e hidratan el cabello.",
-      "precio" : $12.000,
+      "precio" : 12.000,
       "Stock" : 20,
       "url_img": "./../assets/img/img2.jpeg"
     },    {
       "id":3,
       "title": "MYSTIQ (Edicion Limitada) - ✦HIDRATACIÓN Y BRILLO EXTRAORDINARIO",
       "descripcion": "Perfecto para todo tipo de caballo, en especial para cabellos dañados.Brinda una máxima nutrición, brillo e hidratación al cabello.Contiene ácido hialurónico.",
-      "precio" : $12.000,
+      "precio" : 12.000,
       "Stock" : 40,
       "url_img": "./../assets/img/img3.jpeg"
     },
@@ -27,7 +27,7 @@
       "id":4,
       "title": "MYSTIQ - ✦PACK HIDRATANTE Y NUTRITIVO",
       "descripcion":"Formula especial que limpia suavemente el cabello con tensioactivos provenientes del coco. Contiene ingredientes naturales como glicerina vegetal y aceites vegetales que proveen ácidos grasos, vitaminas y minerales que hidratan, nutren y restauran por completo tu cabello. El shampoo es apto para todo tipo de cabellos.",
-      "precio" : $10.000,
+      "precio" : 10.000,
       "Stock" : 10,
       "url_img": "./../assets/img/img4.jpeg"
     },
@@ -35,7 +35,7 @@
       "id":5,
       "title": "MYSTIQ - ✦CREMA FACIAL RECONSTITUYENTE",
       "descripcion": "CREMA CON ÁCIDO HIALURÓNICO, VITAMINA C, PROBIÓTICOS Y ARÁNDANOS. Hidrata, nutre y da firmeza a la piel de forma instantánea. Mantiene a la piel sana y joven.",
-      "precio" : $14.520,
+      "precio" : 14.520,
       "Stock" : 7,
       "url_img": "./../assets/img/img5.jpeg"
     },
@@ -43,14 +43,14 @@
       "id":6,
       "title": "MYSTIQ - ✦PACK NUTRITIVO BEST SELLER - 200 ML VIDRIO",
       "descripcion": "Formula especial que limpia suavemente el cabello con tensioactivos provenientes del coco. Contiene ingredientes naturales como glicerina vegetal y aceites vegetales que proveen ácidos grasos, vitaminas y minerales que hidratan, nutren y restauran por completo tu cabello. El shampoo es apto para todo tipo de cabellos",
-      "precio" : $9.553,
+      "precio" : 9.553,
       "Stock" : 25,
       "url_img": "./../assets/img/img6.jpeg"
     },    {
       "id":7,
       "title": "MYSTIQ - ✦ACONDICIONADOR SÓLIDO 100% NATURAL",
       "descripcion": "Acondicionador sólido 100% natural. Posee glicerina, aceite de almendras y manteca de karite que nutren e hidratan el cabello. También posee vitamina E, la cual tiene acción antioxidante.",
-      "precio" : $7.700,
+      "precio" : 7.700,
       "Stock" : 17,
       "url_img": "./../assets/img/img7.jpeg"
     },
@@ -58,7 +58,7 @@
       "id":8,
       "title": "MYSTIQ - ✦JABON PARA LIMPIEZA FACIAL",
       "descripcion": "abón de limpieza 100% natural con carbón activado",
-      "precio" : $3.119,
+      "precio" : 3.119,
       "Stock" : 15,
       "url_img": "./../assets/img/img8.jpeg"
     },
@@ -66,7 +66,7 @@
       "id":9,
       "title": "MYSTIQ - ✦SHAMPOO TRATAMIENTO PARA CABELLOS GRASOS X 200 ML - VIDRIO",
       "descripcion": "Formula que limpia profundamente el cabello, con tensioactivos de coco, ácido salicílico y aceite esencial de Árbol de Té (Tea Tree) que proveen regulación del sebo y fortalecimiento e hidratación capilar. El shampoo también está enriquecido con aceite de almendras, coco, ricino y glicerina vegetal, los cuales hidratan y nutren en profundidad el cabello.Sin sulfatos, sin sal, sin siliconas, sin derivados de animales, sin petrolatos, sin parabenos, no testeado en animales.Aconsejado para cabellos grasos.Envase de VIDRIO para reducir los residuos plásticos.",
-      "precio" : $5.944,
+      "precio" : 5.944,
       "Stock" : 18,
       "url_img": "./../assets/img/img9.jpeg"
     },
@@ -74,7 +74,7 @@
       "id":10,
       "title": "✦MYSTIQ - SHAMPOO SÓLIDO 100% NATURAL",
       "descripcion": "Shampoo sólido 100% natural, a base de glicerina y aceite de coco saponificado. Contiene aceite de almendras y manteca de karite que nutren e hidratan el cabello. Aroma a naranja y vainilla.",
-      "precio" : $6237,
+      "precio" : 6237,
       "Stock" : 17,
       "url_img": "./../assets/img/img10.jpeg"
     }
