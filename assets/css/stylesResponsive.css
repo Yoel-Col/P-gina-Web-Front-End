@@ -284,20 +284,15 @@ nav > ul > li a {
   .plantilla .producto .producto-img{
     width: 300px;
     height: 330px;
-  
-  
   }
   .plantilla .producto div{
     margin: 10px;
   
   }
-
-
   h1 {
     font-size: 3rem;
     text-align: center;
   }
-
   .navigation {
     display: flex;
     width: 100%;
@@ -360,3 +355,11 @@ nav > ul > li a {
     margin: 1rem 0;
   }
 }
+
+@media screen and (min-width : 1300px){
+  .layao__footer .right__contact .right__list{
+    flex-direction: row;
+  }  
+}
+
+
