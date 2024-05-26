@@ -28,7 +28,11 @@ header {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+form{
+  display:flex;
+  flex-direction: column;
 
+}
 .encabezadoMobile {
   width: 100%;
   display: flex;
@@ -98,10 +102,17 @@ nav > ul > li {
   width: 100%;
   align-items: center;
 }
+.precio:before {
+  content: 'Precio $ ';
+}
+
+.stock:before {
+  content: 'Stock : ';
+}
 
 .producto {
   width: 300PX;
-  height: 355PX;
+  height: 400PX;
   border: 3px solid #00000060 ;
   margin :3px;
   padding: 5px;
@@ -112,6 +123,10 @@ nav > ul > li {
   justify-content: center;
   align-items: center;
   box-sizing: content-box;
+}
+.radioFormulario{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .plantilla .producto {
@@ -139,6 +154,7 @@ nav > ul > li {
   align-items: center;
 
 }
+
 .Comprar{
   width: 50%;
 }

@@ -13,18 +13,18 @@ function getUrlSpecific(done, id) {
 }
 
 getUrlSpecific((data) => {
-  data.forEach((element) => { 
-    console.log(element)
+  data.forEach((element) => {
+    console.log(element);
     const tarjetaProducto = document.createRange().createContextualFragment(
-
-        `<a class ="nn">
+      `<a class ="nn">
       <figure class="producto p${element.id}" id="${element.id}">
         <img class="producto-img" src="${element.url_img}">
         <figcaption>${element.title}</figcaption>
-        <figcaption>$${element.precio}</figcaption>
+        <figcaption>$${Number(element.precio).toLocaleString("en")}</figcaption>
       </figure>
-    </a>`)
-    console.log("tarj" , tarjetaProducto);
+    </a>`
+    );
+    console.log("tarj", tarjetaProducto);
     document.getElementById("Container").appendChild(tarjetaProducto);
 
     let productos = document.querySelectorAll(".container>a");
@@ -48,23 +48,29 @@ function ocultarProductoEspecifico(event) {
 function mostrarDescripcion(event) {
   let id = this.children[0].id;
 
+
   getUrlSpecific((data) => {
     let stock = document.querySelector(".muestra .stock");
 
     document.querySelector(".muestra img").src = data.url_img;
     document.querySelector(".muestra .titulo").innerHTML = data.title;
-    document.querySelector(".muestra .descripcion").innerHTML = data.descripcion;
-    document.querySelector(".muestra .precio").innerHTML =
-      "Precio: $" + data.precio;
+    document.querySelector(".muestra .descripcion").innerHTML =
+      data.descripcion;
+    document.querySelector(".muestra .precio").innerHTML = Number(
+      data.precio
+    ).toLocaleString("en");
+
     document.querySelector(".container").classList.add("oculto");
     document.querySelector(".plantilla").classList.remove("oculto");
     if (data.Stock > 0) {
-      stock.innerHTML = "Stock: " + data.Stock;
+      stock.innerHTML = data.Stock;
     } else {
       botonComprar.classList.add("oculto");
       stock.innerHTML = "Sin Stock";
     }
   }, id);
+  document.documentElement.scrollTop = 0;
+
 }
 
 function comprar() {
