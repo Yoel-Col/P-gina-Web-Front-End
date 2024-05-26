@@ -1,35 +1,26 @@
 /*DEFINION VARIABALES*/
-:root {
-  --color-principal: #ffffff;
+:root{
+  --color-principal: #d8f3dc;
   --color-cambio: #fffef2;
-  --color-secundario: #5d001e;
+  --color-secundario: #72c59a;
 
-  --color-fondo: #ffffff;
-  --color-extra: #c40e69bb;
-  --color-grad: linear-gradient(
-    to right,
-    tomato 0%,
-    gold 50%,
-    var(--color-extra) 100%
+  --color-fondo: #b7e4c7;
+  --color-extra: #95d5ad;
+  --color-grad: linear-gradient(to right,
+      tomato 0%,gold 50%, var(--color-extra) 100%
   );
-  --color-new: linear-gradient(
-    45deg,
-    var(--color-extra),
-    var(--color-secundario),
-    var(--color-text),
-    var(--color-subtitulo)
-  );
+  --color-new: linear-gradient(45deg, var(--color-principal),var(--color-extra),var(--color-secundario),var(--color-subtitulo));
 
-  --color-icon: #c70039;
-  --color-btn: #99002e;
-  --color-titulo: #5d001e;
-  --color-subtitulo: #000;
-  --color-text: #99002e;
+  --color-icon: #72c59a;
+  --color-btn: #95d5ad;
+  --color-titulo: #72c59a; 
+  --color-subtitulo: #95d5ad;
+  --color-text: black;
 
-  --font-title: "Stalemate";
-  --font-subtitle: "Vujahday Script";
+  --font-title:"Stalemate";
+  --font-subtitle:"Vujahday Script";
+  --font-text:"Colonna MT";
 }
-
 header {
   width: 100%;
   display: flex;
@@ -358,7 +349,14 @@ nav > ul > li a {
   .plantilla .producto .producto-img{
     width: 500px;
     height: 530px;
-  
-  
+  }
+}
+
+@media (width <= 886px) {
+  .resenas__conteiner{
+    flex-direction: column;
+  }
+  .div3d{
+    margin: 1rem 0;
   }
 }
