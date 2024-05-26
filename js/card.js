@@ -28,8 +28,6 @@ document.querySelectorAll(".animation").forEach((cardYX__3d)=>{
 })
 
 
-
-
 let audio = document.getElementById("miAudio");
 let boton = document.getElementById("btnAudioPlay");
 
@@ -44,3 +42,12 @@ boton.addEventListener("click", function(){
     }
 })
 
+let producto = document.getElementById("productoCarrusel");
+producto.addEventListener("mouseover", () =>{
+    let fondo =document.querySelector(".carrusel__video");
+    fondo.classList.add("borroso");
+})
+producto.addEventListener("mouseleave", () =>{
+    let fondo =document.querySelector(".carrusel__video");
+    fondo.classList.remove("borroso");
+})

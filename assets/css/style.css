@@ -214,7 +214,7 @@ li {
 
 .form__btn:hover,
 .content__btn:hover {
-  scale: 1.2;
+  scale: 1.1;
   color: var(--color-cambio);
   opacity: 1;
 }
@@ -244,31 +244,6 @@ a:hover {
 .layao__footer {
   width: 100%;
   margin-top: 2rem;
-}
-
-/*AUDIO*/
-.layao__conteiner__music{
-  height: 100px;
-  width: 150px;
-  background-image: url(../img/fondomusic.png);
-  background-size: cover;
-  position: fixed;
-  bottom: 0%;
-  right: 0%;
-}
-audio{
-  height: 3rem;
-  width: 15rem;
-  border-radius: 1rem;
-}
-.btn__play{
-  font-size: 1rem;
-  background-color: transparent;
-  border: transparent;
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  color: var(--color-secundario);
 }
 
 /*NAVEGACION*/
@@ -347,7 +322,7 @@ audio{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   padding-top: 2rem;
 }
 .top__item {
@@ -396,7 +371,7 @@ audio{
   flex-wrap: nowrap;
 }
 .form__btn {
-  /* position: absolute; */
+  position: absolute;
   right: 0;
   z-index: 1;
   display: block;
@@ -410,15 +385,15 @@ audio{
   color: var(--color-principal);
 }
 .form__icon {
-  /* position: absolute; */
-  left: 0;
+  position: absolute;
+  left: 7px;
   z-index: 1;
   display: block;
   font-size: 2rem;
 }
 .form__input {
   height: auto;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   display: block;
   border: none;
   border-radius: 2rem;
@@ -500,6 +475,30 @@ audio{
   justify-content: flex-end;
   gap: 2rem;
   margin: 1rem;
+}
+/*AUDIO*/
+.layao__conteiner__music{
+  height: 100px;
+  width: 150px;
+  background-image: url(../img/fondomusic.png);
+  background-size: cover;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+audio{
+  height: 3rem;
+  width: 15rem;
+  border-radius: 1rem;
+}
+.btn__play{
+  font-size: 1rem;
+  background-color: transparent;
+  border: transparent;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.2rem;
+  color: var(--color-secundario);
 }
 
 /*INDEX*/
@@ -675,6 +674,7 @@ audio{
   position: relative;
   display: flex;
   flex-direction: column;
+  background-image: url(../img/footer.jpg);
 }
 .kit__left {
   height: 100%;
@@ -758,20 +758,17 @@ audio{
 
 .icons__item:hover .icons__icon{
   color: var(--color-secundario);
-  font-size: 4rem;
+  padding-top: 1rem;
+  transform: scale(1.5);
 }
-.icons__item:hover .icons-text{
-  opacity: 1;
+.icons__item:hover h4{
   color: var(--color-secundario);
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  font-size: 1.5rem;
 }
 
 /*RESENIAS*/
 .content__resenas{
-  margin-top: 5rem ;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   padding: 4rem;
   background-image: url(../img/resenias.jpg);
   background-repeat: no-repeat;
@@ -779,6 +776,9 @@ audio{
   position: relative;
   width: 100%;
   
+}
+.content__resenas h1{
+  color: var(--color-icon);
 }
 .reseñas__left{
   width: 100%;
@@ -788,7 +788,7 @@ audio{
   justify-content: center;
 }
 .caja{
-  background-color: transparent;
+  background-color: rgba(255, 254, 242, 0.5);
   border-radius: 2rem;
   border: 3px solid palegreen;
   width: 15rem;
@@ -825,7 +825,7 @@ audio{
   color: var(--color-secundario);
   font-size: 0.8rem;
   position: absolute;
-  top: 10rem;
+  top: 12rem;
 }
 .title{
   position: absolute;
@@ -1089,3 +1089,101 @@ main {
       flex-direction: row;
      }  
   }
+
+/*EXTRAS*/
+
+.conteiner__video{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.carrusel__video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.imgprod{
+    position: absolute;
+    bottom: -35px;
+    left: -25px;
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+
+}
+.carrusel__tarjeta{
+    position: relative;
+}
+
+#girasol__3d{
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteiner__fondo{
+    transition: transform 0.5s;
+}
+
+.carrusel__flechas{
+    display: none;
+}
+
+.carrusel__video{
+  transition: filter 3s ease;
+}
+
+
+.imgprod{
+  transition: filter 3s ease;
+}
+.imgprod:hover{
+  filter: saturate(200%);
+  box-shadow: rgb(0, 0, 0,0.5);
+}
+
+.borroso{
+  filter: blur(5px);
+}
+.transicion{
+  filter: blur(100px);
+}
+
+.titleColor2{
+  color: #1A6677;
+  opacity: 1;
+}
+.titleColor3{
+  color: #CC9B6B;
+  opacity: 1;
+}
+
+#tlitleC1{
+  position: absolute;
+  top: 6rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  rotate: 180deg;
+  font-size: 2rem;
+}
+
+@media (width >= 700px) {
+  #tlitleC1{
+    writing-mode: horizontal-tb;
+    rotate: 360deg;
+    top: 45%;
+    left: 1rem;
+    font-size: 3rem;
+  }
+  .imgprod{
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    width: 330px;
+    height: 650px;
+    object-fit: cover;
+}
+}
+
