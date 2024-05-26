@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     let isValid = true;
-    let messages = "";
+    let messages = ""; 
 
     const regExpDNI = /^\d{8}$/gm;
     const dniOK = regExpDNI.test(dni.value);
