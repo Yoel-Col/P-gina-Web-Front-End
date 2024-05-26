@@ -23,7 +23,57 @@
   --font-text:"Colonna MT";
 }
 
+/*RESET*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
+body{
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+ul,ol{
+  list-style: none;
+  padding: 0px;
+}
+
+a{
+  text-decoration:  none;
+  font-size: inherit;
+  display: block;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+  display: block;
+}
+p a{
+  display: inline;
+}
+
+form, input, select, textarea, button, label{
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  
+
+}
+
+figure { 
+  margin: 0;
+  padding: 0;
+}
+
+time{
+  display: block;
+}
+
+/**/
 
 html {
   font-size: 16px;
@@ -255,7 +305,6 @@ a:hover {
   background-color: transparent;
   z-index: 2;
   transition: 700ms all linear;
-  position: absolute;
 }
 .navbar__logo {
   position: relative;
@@ -1089,6 +1138,21 @@ main {
       flex-direction: row;
      }  
   }
+
+  .layao__formulario{
+    margin: auto;
+    background-color: var(--color-cambio);
+    padding: 2rem 5rem;
+  }
+  
+  
+  /*PAGINA PRODUCTOS*/
+  
+  .producto{
+    background-color: var(--color-cambio);
+  }
+  
+
 
 /*EXTRAS*/
 
