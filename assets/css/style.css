@@ -81,7 +81,7 @@ h1 {
 }
 h2 {
   font-family: var(--font-subtitle);
-  color: var(--color-titulo);
+  color: var(--color-titulo); 
 }
 h3 {
   font-size: 3rem;
@@ -563,6 +563,7 @@ audio{
 .content__title {
   text-align: center;
   margin-top: 2rem;
+  font-size: 3rem;
   /* position: absolute; */
 }
 .generales__navbar {
@@ -967,13 +968,13 @@ main {
     bottom: -35px;
     left: -25px;
     width: 300px;
-    height: 600px;
+    height: 601px;
     object-fit: cover;
 }
 .carrusel__tarjeta{
     position: relative;
 }
-#girasol__3d{
+.girasol__3d{
     display: flex;
     justify-content: center;
 }
@@ -1007,7 +1008,7 @@ main {
   color: #CC9B6B;
   opacity: 1;
 }
-#tlitleC1{
+.tlitleC1{
   position: absolute;
   top: 6rem;
   right: 0;
@@ -1016,7 +1017,7 @@ main {
   font-size: 2rem;
 }
 @media (width >= 700px) {
-  #tlitleC1{
+  .tlitleC1{
     writing-mode: horizontal-tb;
     rotate: 360deg;
     top: 45%;
