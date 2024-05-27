@@ -554,7 +554,7 @@ audio{
   transform: translateX(1rem);
 }
 .content__title-color {
-  color: var(--color-extra);
+  color: var(--color-cambio);
   display: block;
   text-align: center;
   font-size: 2rem;
@@ -563,6 +563,7 @@ audio{
 .content__title {
   text-align: center;
   margin-top: 2rem;
+  color: var(--color-cambio);
   font-size: 3rem;
   /* position: absolute; */
 }
