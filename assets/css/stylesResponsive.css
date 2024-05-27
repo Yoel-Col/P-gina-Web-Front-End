@@ -164,6 +164,7 @@ nav > ul > li {
 
 .producto:hover {
   background: var(--color-extra);
+  color: var(--color-cambio);
 }
 .plantilla .producto:hover{
   background-color: white;
