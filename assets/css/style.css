@@ -1005,7 +1005,7 @@ main {
   opacity: 1;
 }
 .titleColor3{
-  color: #CC9B6B;
+  color: #f8e3ce;
   opacity: 1;
 }
 .tlitleC1{
@@ -1016,12 +1016,18 @@ main {
   rotate: 180deg;
   font-size: 2rem;
 }
+@media (width >= 500px) {
+.layao__formulario{
+
+  padding: 2rem 5rem;
+}
+}
 @media (width >= 700px) {
   .tlitleC1{
     writing-mode: horizontal-tb;
     rotate: 360deg;
     top: 45%;
-    left: 1rem;
+    right: 1rem;
     font-size: 3rem;
   }
   .imgprod{
@@ -1033,4 +1039,3 @@ main {
     object-fit: cover;
 }
 }
-
